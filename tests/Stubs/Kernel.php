@@ -13,7 +13,7 @@ use Osiset\ShopifyApp\Http\Middleware\AuthWebhook;
 use Osiset\ShopifyApp\Http\Middleware\Billable;
 use Osiset\ShopifyApp\Http\Middleware\VerifyShopify;
 
-class Kernel extends \Orchestra\Testbench\Http\Kernel
+class Kernel extends \Orchestra\Testbench\Foundation\Http\Kernel
 {
     /**
      * The application's route middleware.
